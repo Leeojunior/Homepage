@@ -1,0 +1,113 @@
+.sobre-institucional
+{
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.aside-fundadora
+{
+    width: 400px;
+    height: 350px;
+}
+
+.fundadora-img
+{
+    width: 340px;
+    height: 340px;
+    border-radius: 50%;
+}
+
+.texto-fundadora
+{
+    max-width: 710px;
+    line-height: 2rem;
+}
+
+.materia-conteudo
+{
+    margin: 5px;
+}
+
+/*Institucional da Marca------------------------------------------------*/
+
+.marca
+{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    background-color: white;
+    margin-top: 80px;
+}
+
+.principal-marca
+{
+    text-align: center;
+    height: 500px;
+    width: 50%;
+    margin-top: 50px;
+}
+
+.principal-primeiro-bloco
+{
+    height: 30%;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% ;
+    grid-template-rows: 160px;
+    gap: 50px;
+    justify-content: center;
+    align-items: start;
+    padding: 50px 0px;
+}
+
+/*GRID*/
+
+.icon-grid
+{
+    display: flex;
+    text-align: center;
+    transition: 1.5s;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.icon-grid:hover
+{
+    transform: scale(1.1);
+
+}
+
+.icon-grid-img
+{
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+    box-sizing: border-box;
+    padding: 10px;
+
+}
+
+.infos-grid
+{
+    font-weight: 700;
+    font-size: larger;
+}
+
+
+
+.aside-marca
+{
+    height: 500px;
+    width: 100%;
+    margin-top: 10px;
+    padding: 20px;
+}
+.aside-marca-img
+{
+    height: 500px;
+    width: 100%;
+}
